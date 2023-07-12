@@ -62,8 +62,11 @@
 }
 .h2-title::after{
     @include underline-deco;
-    left: 46%;
+    left: 45%;
     background-color: $primary;
+    @include media-breakpoint-up(md){
+        left: 48%;
+    }
 }
 
 .list-scroll{
