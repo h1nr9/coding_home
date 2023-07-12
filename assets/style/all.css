@@ -13306,8 +13306,14 @@ fieldset:disabled .btn {
   bottom: -16px;
   width: 50px;
   height: 2px;
-  left: 46%;
+  left: 45%;
   background-color: #62DB54;
+}
+
+@media (min-width: 768px) {
+  .h2-title::after {
+    left: 48%;
+  }
 }
 
 .list-scroll {
